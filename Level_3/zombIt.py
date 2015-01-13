@@ -103,7 +103,8 @@ def zombIt(food, grid):
         largest = (food - largest)
     return largest
 
-print zombIt(food1, grid1)
-print zombIt(food2, grid2)
-print zombIt(food3, grid3)
-print zombIt(food4, grid4)
+print zombIt(food1, grid1) # 0
+print zombIt(food2, grid2) # 1
+print zombIt(food3, grid3) # -1
+print zombIt(food4, grid4) # -1
+# Passes all test cases
